@@ -10,7 +10,7 @@ double avg(int* array, int length, average_type_t type){
     double sum = 0;
     for(int i = 0;i<length;i++){
         if(type == NORMAL){
-            
+
             sum+=array[i];
 
         }else if(type == SQUARED){
@@ -20,6 +20,6 @@ double avg(int* array, int length, average_type_t type){
     }
 
     return sum/(double)length;
-
+    
 
 }
