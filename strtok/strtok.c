@@ -2,8 +2,6 @@
 #include <string.h>
 #include <stdlib.h>
 
-//a ideia é andar pela string testando o padrão e dividir
-
 char* test(char* string,char* pattern ){
     char* pointer = strstr(string,pattern);
 

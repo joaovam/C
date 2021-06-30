@@ -8,5 +8,7 @@ typedef struct splitted
 
 }splitted;
 
+char* test(char*,char*);
+splitted* split(char*, char*);
 
 #endif
