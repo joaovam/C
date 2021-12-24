@@ -1,11 +1,11 @@
-all: strtok.o main.o exec clean.o
+all: strtok.o main.o exec
 
 strtok.o:
-	gcc -c strtok.c
+	gcc -c strtok.c -o strtok.o
 main.o:
-	gcc -c main.c
+	gcc -c testing.c -o testing.o
 exec:
-	gcc strtok.o main.o -o exec.out
+	gcc strtok.o testing.o -o exec.out
 
 clean: clean.o clean.out
 
